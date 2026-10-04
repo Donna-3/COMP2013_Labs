@@ -1,7 +1,7 @@
 import ResortCard from "./ResortCard";
 import type { ResortListing } from "../data/data";
 
-type ResortListProps = {
+interface ResortListProps {
   data: ResortListing[];
 };                                                                                                                                                              
 
